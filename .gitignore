@@ -4,30 +4,26 @@ node_modules/
 
 # Build artifacts
 dist/
-*.d.ts
-*.d.ts.map
-*.js.map
 
-# Environment
-.env
-.env.local
-.env.*
+# Environment variables
+.env*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
 
 # Logs
 *.log
 
-# Coverage
-coverage/
-htmlcov/
+# Temporary files
+*.tmp
+*.swp
 
-# IDE
-.vscode/
-.idea/
-
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Package manager
-package-lock.json
+# TypeScript
+*.tsbuildinfo
 ```
