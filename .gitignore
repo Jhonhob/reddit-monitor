@@ -1,1 +1,33 @@
-Nothing can be determined from just the addition of a directory 'LeadHunterOS/'. More specific file changes would be needed to generate appropriate .gitignore rules.
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+*.d.ts
+*.d.ts.map
+*.js.map
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package manager
+package-lock.json
+```
